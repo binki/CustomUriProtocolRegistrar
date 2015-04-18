@@ -37,11 +37,10 @@ whitespace).
 # Build
 
 We’re going to try to target the compact framework. To build, you will
-need to
-[http://www.microsoft.com/en-us/download/details.aspx?id=17981](obtain
-the CF2.0SP2 reference assemblies) and either install them to a
-default location or set the NETCF35DIR environment variable to
-wherever you put ’em.
+need to [obtain the CF2.0SP2 reference
+assemblies](http://www.microsoft.com/en-us/download/details.aspx?id=17981)
+and either install them to a default location or set the NETCF35DIR
+environment variable to wherever you put ’em.
 
 Because buildsystems, I rely on GNU Make. If you use Windows, obtain
 by running
