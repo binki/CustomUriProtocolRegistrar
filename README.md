@@ -15,7 +15,7 @@ Licensed under the license stored in [`LICENSE`](LICENSE).
         protocolRegistrar.Register(
             OhNoPub.CustomUriProtocolRegistrar.ProtocolRegistryScope.User,
             GetType().Name.ToLowerInvariant(),
-            Assembly.GetEntryAssembly().CodeBase);
+            new Uri(Assembly.GetEntryAssembly().GetName().CodeBase).LocalPath);
     }
 
 Make sure that your application, when forming URI strings, safely
