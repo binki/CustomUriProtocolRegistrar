@@ -165,6 +165,7 @@ namespace OhNoPub.CustomUriProtocolRegistrar
                         },
                         subKey => {
                         });
+                    */
                 }
                 catch (UnauthorizedAccessException ex)
                 {
